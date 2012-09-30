@@ -5,7 +5,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.app.Activity;
-import android.app.Application;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.view.Menu;
@@ -14,7 +13,6 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
-	private int toastShows = 0;
 	private LocationManager locationManager;
 	private Context context;
 
@@ -22,7 +20,6 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
         context = getApplicationContext();
     }
 
