@@ -1,5 +1,6 @@
-package co.uk.darkruby.FirstAndroidApp;
+package co.uk.darkruby.WalkingDistance;
 
+import co.uk.darkruby.WalkingDistance.R;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;

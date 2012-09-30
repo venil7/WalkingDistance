@@ -1,4 +1,4 @@
-package co.uk.darkruby.FirstAndroidApp;
+package co.uk.darkruby.WalkingDistance;
 
 import android.location.Location;
 import android.location.LocationListener;

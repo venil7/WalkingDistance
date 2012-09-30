@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package co.uk.darkruby.FirstAndroidApp;
+package co.uk.darkruby.WalkingDistance;
 
 public final class R {
     public static final class attr {
